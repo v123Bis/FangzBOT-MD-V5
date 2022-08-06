@@ -241,7 +241,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	{title: `❀🌐 ${pmenus} WҽႦʂιƚҽ`, rowId: ".website", description: 'Jangan lupa mampir'},
 	]
 	},{
-	title: `${htki} MENU FANGZ BOT${htka}`,
+	title: `${htki} MENU FVP BOT${htka}`,
 	rows: [
 	    {title: `இ💬☜ ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
 	    {title: `இ🌱☜ ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
@@ -283,10 +283,10 @@ let tek = `*✧${ucapan()} ${conn.getName(m.sender)}*
 ╰═┅═━–––๑
 
 ╭━━━━「 *Ʋser Ɩnfσrmαtισn* 」
-┝🌸• *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
-┝🌸• *ᴛᴀɢs:* @${m.sender.split`@`[0]}
-┝🌸• *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
-┝🌸• *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
+┝.• *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
+┝.• *ᴛᴀɢs:* @${m.sender.split`@`[0]}
+┝.• *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
+┝.• *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
 ╰═┅═━═┅═━═┅═━––––––๑
 
 
@@ -301,11 +301,11 @@ let tek = `*✧${ucapan()} ${conn.getName(m.sender)}*
 ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 ╰═┅═━═┅═━═┅═━––––––๑
 
-               「 *FANGZ BOT あ⁩* 」
+               「 *FVP BOT あ⁩* 」
 `
 const listMessage = {
   text: tek,
-  footer: '📮Fangz BOT V5\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕',
+  footer: '📮Fvp BOT V1\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❙❘❙❙❘❙❚❙❘ ⌕',
   mentions: await conn.parseMention(tek),
   title: `${htki} *LIST MENU* ${htka}`,
   buttonText: `LIST FITUR`,
