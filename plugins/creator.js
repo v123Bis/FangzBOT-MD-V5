@@ -21,17 +21,17 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-*💌 Nama* : Fangz
-*✉️ Nama RL* : FangzBOT
+*💌 Nama* : Fvp
+*✉️ Nama RL* : Fvp BOT
 *♂️ Gender* : Laki - laki
 *🕋 Agama* : Islam
-*⏰ Tanggal lahir* : 25 oktober 2007
-*🎨 Umur* : 15
-*🧮 Kelas* : 9
-*🧩 Hobby* : Nonton henta*, main game, Recode script
-*💬 Sifat* : Baik, hode, softboy, tydack ramah, g*y
-*🗺️ Tinggal* : Indonesia, jawa, bogor
-*❤️ Suka* : warnah pink & hitam, trap, waifu wangy, kucing
+*⏰ Tanggal lahir* : 18 juni 2007
+*🎨 Umur* : 16
+*🧮 Kelas* : 10
+*🧩 Hobby* : Main hp, main game, Recode script
+*💬 Sifat* : Baik, hode, softboy, tydack ramah
+*🗺️ Tinggal* : Indonesia, medan, tembung
+*❤️ Suka* : warnah merah & hitam, kucing
 *💔 Benci* : anak alay, autis, anak epep, sok asik
 
 *- - sᴋɪʟʟs: - -* 
@@ -48,8 +48,8 @@ let teksbio = `${htki} *BIODATA* ${htka}
 🐈 *Github:* ${sgh}
 🥏 *Whatsapp* wa.me/${nomorown}
 🌐 *Discord:* Soon
-🌏 *Website:* https://fangzbot.websites.co.in/
-🎶 *Tiktok:* tiktok.com/@fangzjb
+🌏 *Website:* [ https://fangzbot.websites.co.in/ ]
+🎶 *Tiktok:* -
 
 `
   let teks = ' '
